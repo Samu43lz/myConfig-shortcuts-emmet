@@ -1,0 +1,27 @@
+html {
+    background: #fff;
+    color: #000;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0;
+}
+
+h1 {
+    color: aqua;
+    background-color: #000;
+    margin: 0;
+    padding: 40px;
+}
+
+h3 {
+    font-size: 30px;
+    color: crimson;
+    font-family: "Bungee Tint", sans-serif;
+}
+
+span {
+    font-family: sans-serif;
+}
+/* este es un comentario */
