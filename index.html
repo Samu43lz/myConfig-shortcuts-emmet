@@ -2,47 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/code.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet"> 
-    <title>VS Code and Emmet</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/code.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap" rel="stylesheet">
+  <title>VS Code and Emmet</title>
 </head>
 
 <body>
-    <h1>Visual Studio Code and Emmet Shortcuts &#128520; &#9889;</h1>
-    <h3>Atajos <span>(Mis favoritos)</span></h3>
-    <h4>Para que VS me de sugerencias: </h4>
-    <p>(ctrl + space)</p>
-    <h4>Aumentar el tamaño de la pantalla o disminuirla : </h4>
-    <p>ctrl + "+" ó "-"</p>
-    <h4>Seleccionar varios renglones a la vez para editarlos:</h4>
-    <p>alt(en los renglones que deseas) + click </p>
-    <h4>Encontrar código mediante palabras clave : </h4>
-    <p>ctrl + f </p>
-    <h4>Duplicar lineas:</h4>
-    <p>shift + alt + (boton arriba ó abajo)</p>
-    <h4>Comentar una parte de código ó bloque de código :</h4>
-    <p> alt + shift + a</p>
-    <h4>Comentar un bloque de código (2da opción) : </h4>
-    <p>ctrl + "&#125;"</p>
-    <h4>Ajustar nuestro código al tamaño de la pantalla eliminando la barra de navegación inferior:</h4>
-    <p>alt + z</p>
-    <h4>Abrir terminal :</h4>
-    <p>ctrl + ñ</p>
-    
-    <hr>
+  <h1>Visual Studio Code and Emmet Shortcuts &#128520; &#9889;</h1>
+  <h3>Atajos <span>(Mis favoritos)</span></h3>
+  <h4>Para que VS me de sugerencias: </h4>
+  <p>(ctrl + space)</p>
+  <h4>Aumentar el tamaño de la pantalla o disminuirla : </h4>
+  <p>ctrl + "+" ó "-"</p>
+  <h4>Seleccionar varios renglones a la vez para editarlos:</h4>
+  <p>alt(en los renglones que deseas) + click </p>
+  <h4>Encontrar código mediante palabras clave : </h4>
+  <p>ctrl + f </p>
+  <h4>Duplicar lineas:</h4>
+  <p>shift + alt + (boton arriba ó abajo)</p>
+  <h4>Comentar una parte de código ó bloque de código :</h4>
+  <p> alt + shift + a</p>
+  <h4>Comentar un bloque de código (2da opción) : </h4>
+  <p>ctrl + "&#125;"</p>
+  <h4>Ajustar nuestro código al tamaño de la pantalla eliminando la barra de navegación inferior:</h4>
+  <p>alt + z</p>
+  <h4>Abrir terminal :</h4>
+  <p>ctrl + ñ</p>
+
+  <hr>
 
   <h3>Mi configuración de VS Code</h3>
   <h5>File ➡️ preferences ➡️ settings, and finally ...</h5>
   <img src="assets/img/example.png" alt="Imagen del ultimo paso a seguir">
 
   <h5>then copy all of this code over there. (in settings.json)</h5>
-    
-    <pre>
+
+  <pre>
       {
       "workbench.editor.empty.hint": "hidden",
       "[html]": {
@@ -63,8 +63,12 @@
       "editor.detectIndentation": false
       "editor.renderWhitespace": "all"
       "terminal.integrated.defaultProfile.windows": "Git Bash"
+      "editor.formatOnPaste": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true
       }
-    </pre> 
+    </pre>
 </body>
 
 </html>
