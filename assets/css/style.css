@@ -25,4 +25,33 @@ span {
   font-family: sans-serif;
 }
 
+#img1,
+#img7,
+#img8,
+#img9 {
+  width: 500px;
+  height: 400px;
+}
+
+#img2 {
+  width: 625px;
+  height: 550px;
+}
+
+#img10 {
+  width: 690px;
+  height: 360px;
+}
+
+#img3,
+#img4,
+#img6 {
+  width: 700px;
+  height: auto;
+}
+
+
+
+
+
 /* este es un comentario */
